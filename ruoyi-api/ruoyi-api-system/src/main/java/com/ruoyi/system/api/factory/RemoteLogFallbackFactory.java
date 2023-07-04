@@ -11,7 +11,7 @@ import com.ruoyi.common.core.domain.R;
 
 /**
  * 日志服务降级处理
- * 
+ *
  * @author ruoyi
  */
 @Component

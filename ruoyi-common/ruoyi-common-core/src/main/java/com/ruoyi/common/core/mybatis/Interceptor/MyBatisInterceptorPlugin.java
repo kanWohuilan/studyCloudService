@@ -2,7 +2,6 @@ package com.ruoyi.common.core.mybatis.Interceptor;
 
 import com.ruoyi.common.core.annotation.IdAnnotation;
 import com.ruoyi.common.core.utils.SnowflakeIdWorker;
-import com.ruoyi.common.security.utils.SnowflakeIdWorker;
 import org.apache.ibatis.executor.Executor;
 import org.apache.ibatis.mapping.MappedStatement;
 import org.apache.ibatis.mapping.ParameterMap;

@@ -9,14 +9,14 @@ import com.ruoyi.common.core.constant.ServiceNameConstants;
 import com.ruoyi.common.core.domain.R;
 import com.ruoyi.system.api.domain.SysLogininfor;
 import com.ruoyi.system.api.domain.SysOperLog;
-import com.ruoyi.system.api.factory.RemoteLogFallbackFactory;
+//import com.ruoyi.system.api.factory.RemoteLogFallbackFactory;
 
 /**
  * 日志服务
- * 
+ *
  * @author ruoyi
  */
-@FeignClient(contextId = "remoteLogService", value = ServiceNameConstants.SYSTEM_SERVICE, fallbackFactory = RemoteLogFallbackFactory.class)
+@FeignClient(contextId = "remoteLogService", value = ServiceNameConstants.SYSTEM_SERVICE)
 public interface RemoteLogService
 {
     /**

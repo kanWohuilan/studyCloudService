@@ -31,6 +31,11 @@ public class RemoteMemberFallbackFactory implements FallbackFactory<RemoteMember
                 return R.fail("获取用户失败:" + throwable.getMessage());
             }
 
+            @Override
+            public R<Boolean> registerUserInfo(Member sysUser, String source) {
+                return null;
+            }
+
 //            @Override
 //            public R<Boolean> registerUserInfo(Member member, String source)
 //            {

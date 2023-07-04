@@ -47,17 +47,17 @@ public class MemberController extends BaseController
     @Autowired
     private MemberService memberService;
 
-    @Autowired
-    private ISysRoleService roleService;
-
-    @Autowired
-    private ISysDeptService deptService;
-
-    @Autowired
-    private ISysPostService postService;
-
-    @Autowired
-    private ISysPermissionService permissionService;
+//    @Autowired
+//    private ISysRoleService roleService;
+//
+//    @Autowired
+//    private ISysDeptService deptService;
+//
+//    @Autowired
+//    private ISysPostService postService;
+//
+//    @Autowired
+//    private ISysPermissionService permissionService;
 
     @Autowired
     private ISysConfigService configService;
@@ -308,10 +308,10 @@ public class MemberController extends BaseController
     /**
      * 获取部门树列表
      */
-    @RequiresPermissions("system:user:list")
-    @GetMapping("/deptTree")
-    public AjaxResult deptTree(SysDept dept)
-    {
-        return success(deptService.selectDeptTreeList(dept));
-    }
+//    @RequiresPermissions("system:user:list")
+//    @GetMapping("/deptTree")
+//    public AjaxResult deptTree(SysDept dept)
+//    {
+//        return success(deptService.selectDeptTreeList(dept));
+//    }
 }

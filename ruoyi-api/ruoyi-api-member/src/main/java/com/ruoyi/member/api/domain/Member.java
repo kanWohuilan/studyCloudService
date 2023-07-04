@@ -113,6 +113,9 @@ public class Member extends BaseEntity {
      * 剩余抽奖次数
      */
     private Integer luckeyCount;
+    public Boolean isAdmin() {
+        return true;
+    };
 
     /**
      * 历史积分数量

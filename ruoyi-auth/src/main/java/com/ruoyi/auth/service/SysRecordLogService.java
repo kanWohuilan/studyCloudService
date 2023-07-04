@@ -6,7 +6,7 @@ import com.ruoyi.common.core.constant.Constants;
 import com.ruoyi.common.core.constant.SecurityConstants;
 import com.ruoyi.common.core.utils.StringUtils;
 import com.ruoyi.common.core.utils.ip.IpUtils;
-import com.ruoyi.member.api.RemoteLogService;
+import com.ruoyi.system.api.RemoteLogService;
 import com.ruoyi.member.api.domain.SysLogininfor;
 
 /**
@@ -43,6 +43,6 @@ public class SysRecordLogService
         {
             logininfor.setStatus(Constants.LOGIN_FAIL_STATUS);
         }
-        remoteLogService.saveLogininfor(logininfor, SecurityConstants.INNER);
+//        remoteLogService.saveLogininfor(logininfor, SecurityConstants.INNER);
     }
 }

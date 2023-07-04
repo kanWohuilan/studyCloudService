@@ -15,11 +15,11 @@ import com.ruoyi.common.swagger.annotation.EnableCustomSwagger2;
 @EnableCustomSwagger2
 @EnableRyFeignClients
 @SpringBootApplication
-public class RuoYiSystemApplication
+public class RuoYiMemberApplication
 {
     public static void main(String[] args)
     {
-        SpringApplication.run(RuoYiSystemApplication.class, args);
+        SpringApplication.run(RuoYiMemberApplication.class, args);
         System.out.println("(♥◠‿◠)ﾉﾞ  系统模块启动成功   ლ(´ڡ`ლ)ﾞ  \n" +
                 " .-------.       ____     __        \n" +
                 " |  _ _   \\      \\   \\   /  /    \n" +
